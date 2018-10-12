@@ -13,8 +13,7 @@ public class Main  extends Application {
         /* prepare the resource */
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/main.fxml"));
         Parent root = loader.load();
-        /* setup the controller */
-        loader.<MainController>getController();
+        
         /* initialize the scene */
         Scene scene = new Scene(root);
         stage.setTitle("4kman");
